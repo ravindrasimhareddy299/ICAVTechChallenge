@@ -1,0 +1,5 @@
+HTTP is unsecured connection, while HTTPS is secured connection in Encrypted 
+HTTP sends data over port 80 while HTTPS uses port 443. 
+HTTP operates at application layer, while HTTPS operates at transport layer.(TLS --> Transport Layer Security) 
+No SSL certificates are required for HTTP, with HTTPS it is required that you have an SSL( Secure Sockets Layer) certificate and it is signed by a CA.
+SSL--> standard security technology that establishes an encrypted connection between a web server and a browser.
