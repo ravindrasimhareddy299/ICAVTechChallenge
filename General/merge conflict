@@ -1,0 +1,3 @@
+For example, if you and another person both edited the same file on the same lines in different branches of the same Git repository, 
+you'll get a merge conflict error when you try to merge these branches. 
+You must resolve this merge conflict with a new commit before you can merge these branches.
