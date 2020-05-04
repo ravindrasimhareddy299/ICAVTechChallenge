@@ -1,0 +1,11 @@
+Develop —-> merge to master—– > build ——> upload to storage —–> deploy to Dev —–> test—— > approve——> deploy to QA ——–> test—– > approve —–> deploy to Pre-Prod ———> test ——-> Deploy to n Prod
+
+1.	Developer or group of developers will be working on Features (it could be also on bugs) in separate Feature Branch . Let’s say that 
+one developer is working on Feature called “Display navigation bars in Admin area”. second developer is working on Feature called “Display product list” 
+third developer is working on a Feature called “Display grid view for lists”.
+ 
+2.	When the Features will be implemented they will be deployed into the QA or Staging environment for quality assurance.
+ 
+3.	After successful completition of testing the Feature Branch will be merged into Development Branch.
+ 
+4.	When the release will be ready, the development Branch will be merged into Master Branch and then deployed into Production environment.
